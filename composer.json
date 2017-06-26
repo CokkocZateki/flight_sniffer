@@ -1,0 +1,12 @@
+{
+    "name": "antiphp/flight_sniffer",
+    "authors": [
+        {
+            "name": "Christian Reinecke",
+            "email": "christian.reinecke@web.de"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

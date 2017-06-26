@@ -22,7 +22,7 @@ Sniff delays on certain airports for personal usage
     // or short
     
     print AirportDelaySniffer\sniff()
-        ->delays()
+        ->flights()
         ->airport('ham')
         ->today()
         ->departures();
