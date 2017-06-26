@@ -2,7 +2,7 @@
 /**
  * interface file
  */
-namespace Antiphp\AirportDelaySniffer\Selector\Location;
+namespace Antiphp\FlightSniffer\Selector\Location;
 
 interface LocationInterface
 {}

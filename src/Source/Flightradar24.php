@@ -2,7 +2,7 @@
 /**
  * class file
  */
-namespace Antiphp\AirportDelaySniffer\Source;
+namespace Antiphp\FlightSniffer\Source;
 
 class Flightradar24
 {

@@ -2,7 +2,7 @@
 /**
  * class file
  */
-namespace Antiphp\AirportDelaySniffer\Airport;
+namespace Antiphp\FlightSniffer\Airport;
 
 class Airport
 {

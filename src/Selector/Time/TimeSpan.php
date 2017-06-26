@@ -3,7 +3,7 @@
  * class file
  */
 
-namespace Antiphp\AirportDelaySniffer\Selector\Time;
+namespace Antiphp\FlightSniffer\Selector\Time;
 
 class TimeSpan implements TimeInterface
 {

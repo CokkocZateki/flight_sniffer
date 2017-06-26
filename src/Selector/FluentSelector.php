@@ -2,14 +2,14 @@
 /**
  * class file
  */
-namespace Antiphp\AirportDelaySniffer\Selector;
+namespace Antiphp\FlightSniffer\Selector;
 
-use Antiphp\AirportDelaySniffer\Selector\Location\Airport;
-use Antiphp\AirportDelaySniffer\Selector\Location\LocationInterface;
-use Antiphp\AirportDelaySniffer\Selector\Time\TimeInterface;
-use Antiphp\AirportDelaySniffer\Selector\Time\TimeSpan;
-use Antiphp\AirportDelaySniffer\Selector\Type\Departure;
-use Antiphp\AirportDelaySniffer\Selector\Type\TypeInterface;
+use Antiphp\FlightSniffer\Selector\Location\Airport;
+use Antiphp\FlightSniffer\Selector\Location\LocationInterface;
+use Antiphp\FlightSniffer\Selector\Time\TimeInterface;
+use Antiphp\FlightSniffer\Selector\Time\TimeSpan;
+use Antiphp\FlightSniffer\Selector\Type\Departure;
+use Antiphp\FlightSniffer\Selector\Type\TypeInterface;
 
 class FluentSelector implements SelectorInterface
 {

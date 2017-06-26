@@ -2,11 +2,11 @@
 /**
  * interface file
  */
-namespace Antiphp\AirportDelaySniffer\Selector;
+namespace Antiphp\FlightSniffer\Selector;
 
-use Antiphp\AirportDelaySniffer\Selector\Location\LocationInterface;
-use Antiphp\AirportDelaySniffer\Selector\Time\TimeInterface;
-use Antiphp\AirportDelaySniffer\Selector\Type\TypeInterface;
+use Antiphp\FlightSniffer\Selector\Location\LocationInterface;
+use Antiphp\FlightSniffer\Selector\Time\TimeInterface;
+use Antiphp\FlightSniffer\Selector\Type\TypeInterface;
 
 interface SelectorInterface
 {

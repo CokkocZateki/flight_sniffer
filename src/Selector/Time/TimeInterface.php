@@ -2,7 +2,7 @@
 /**
  * interface file
  */
-namespace Antiphp\AirportDelaySniffer\Selector\Time;
+namespace Antiphp\FlightSniffer\Selector\Time;
 
 interface TimeInterface
 {}

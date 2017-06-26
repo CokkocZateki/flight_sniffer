@@ -2,7 +2,7 @@
 /**
  * function file
  */
-namespace Antiphp\AirportDelaySniffer;
+namespace Antiphp\FlightSniffer;
 
 /**
  * @return Sniffer

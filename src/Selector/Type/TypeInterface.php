@@ -2,7 +2,7 @@
 /**
  * interface file
  */
-namespace Antiphp\AirportDelaySniffer\Selector\Type;
+namespace Antiphp\FlightSniffer\Selector\Type;
 
 interface TypeInterface
 {}

@@ -2,7 +2,7 @@
 /**
  * class file
  */
-namespace Antiphp\AirportDelaySniffer\Selector\Type;
+namespace Antiphp\FlightSniffer\Selector\Type;
 
 class Departure implements TypeInterface
 {}

@@ -3,7 +3,7 @@
  * class file
  */
 
-namespace Antiphp\AirportDelaySniffer\Flight;
+namespace Antiphp\FlightSniffer\Flight;
 
 class Flight
 {
