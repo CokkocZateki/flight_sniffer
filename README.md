@@ -9,23 +9,23 @@ Sniff delays on certain airports for personal usage
     $delays = $sniffer->today();
     $delays = $sniffer->departures();
 
-    $source = new FlightSniffer\Source\Flightradar24();
+    $f24 = new FlightSniffer\Source\Flightradar24();
+    $f24Cached = new FlightSniffer\Source\Cache($source);
+    $f24Cached(
     
     $sniffer = new FlightSniffer\Sniffer();
     $sniffer->setSelector($delays);
-    $sniffer->setCache('auto');
-    $sniffer->addSource($source);
+    $sniffer->setSource($f24Cached);
     
     $output = new FlightSniffer\Output\Console();
-    $output($sniffer);
+    $output($sniffer());
     
     // or short
     
     print FlightSniffer\sniff()
-        ->flights()
         ->airport('ham')
         ->today()
-        ->departures();
+        ->departures()
 
 ## Requirements
 

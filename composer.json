@@ -7,6 +7,13 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
-    }
+        "guzzlehttp/guzzle": "^6.3",
+        "antiphp/collection": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/antiphp/collection"
+        }
+    ]
 }

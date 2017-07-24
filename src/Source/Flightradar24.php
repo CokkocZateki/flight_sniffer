@@ -4,7 +4,10 @@
  */
 namespace Antiphp\FlightSniffer\Source;
 
-class Flightradar24
+class Flightradar24 implements SourceInterface
 {
+    public function __invoke(SourceInterface $source): Flight
+    {
 
+    }
 }

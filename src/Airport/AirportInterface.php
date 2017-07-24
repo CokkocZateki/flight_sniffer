@@ -1,8 +1,8 @@
 <?php
 /**
- * class file
+ * interface file
  */
 namespace Antiphp\FlightSniffer\Airport;
 
-class Airport implements AirportInterface
+interface AirportInterface
 {}

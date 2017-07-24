@@ -4,9 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b2450b4027134ea8a17427e0ec258e83",
-    "content-hash": "8095ca1da1e38d4ecb49eb4ed045c455",
+    "hash": "a014fc7c41739b5d80abc486dce27f9a",
+    "content-hash": "a7c6e67ab305229d9bf85006feec89c3",
     "packages": [
+        {
+            "name": "antiphp/collection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antiphp/collection.git",
+                "reference": "a3fab58c1fb3e3d35859b9c29a1f92f246582fa5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antiphp/collection/zipball/a3fab58c1fb3e3d35859b9c29a1f92f246582fa5",
+                "reference": "a3fab58c1fb3e3d35859b9c29a1f92f246582fa5",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Antiphp\\Collection\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Antiphp\\CollectionTests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Reinecke",
+                    "email": "christian.reinecke@web.de"
+                }
+            ],
+            "description": "Library to handle multiple instances of the same class as collection, list or set",
+            "support": {
+                "source": "https://github.com/antiphp/collection/tree/master",
+                "issues": "https://github.com/antiphp/collection/issues"
+            },
+            "time": "2017-07-01 17:38:14"
+        },
         {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.0",
@@ -242,7 +286,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "antiphp/collection": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
